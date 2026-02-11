@@ -1,0 +1,66 @@
+/*---------------Home Component------------*/
+.Home{
+    padding-top:100px ;
+    display: grid;
+    place-items: center;
+    gap: 15px;
+    text-align: center;
+    font-size: 1.5 rem;
+    place-items: center;
+    color: white;
+}
+.profileImg{
+    height: 200px;
+    width: 200px;
+}
+.profileImg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.HomeBtns{
+    display: flex;
+    justify-content: center;
+    column-gap: 15px;
+}
+/*---------------About Component------------*/
+.About{
+    color: white;
+    padding: 5px;
+}
+
+.achivements h4{
+    font-weight: bold;
+    background:linear-gradient(267deg, orange 0.36%,#b537d8 106.06%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.achive{
+   text-align: center;
+}
+.About li{
+    margin-top: 1rem;
+}
+.progress{
+    height: 6px;
+}
+.progress-bar{
+    background:linear-gradient(267deg, orange 0.36%,#b537d8 106.06%) ;
+}
+
+/*---------------Contact Component------------*/
+.contact{
+    color: white;
+    background-color:black;
+}
+.ip{
+    padding: 5px 0px;
+}
+/*---------------Footer Component------------*/
+a{
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}

@@ -1,0 +1,101 @@
+/*----------------------Navbar--------------------------*/
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    z-index: 3;
+    position: fixed;
+    top: 0px;
+    background-color: black;
+    width: 100%;
+    padding: 5px;
+}
+nav .logo{
+    padding: 0px 8px;
+
+}
+nav .Hamburger{
+    display: flex;
+    flex-direction: column;
+    width: 30px;
+    gap: 5px;
+    padding: 10px;
+    
+}
+nav .bar{
+    width: 100%;
+    height: 3px;
+    background-color: white;
+}
+nav .pages{
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    position: fixed;
+    top: 5%;
+    left: -100%;
+    justify-content:center;
+    align-content:flex-start;
+    width: 200px;
+    height: 100vh;
+    transition:all 0.5s ease;
+    background-color: black;
+
+}
+nav .pages a{
+    width: 100%;
+    color:white;
+    padding: 20px 0px;
+    text-decoration: none;
+}
+nav a:hover{
+    background-color: rgba(101, 104, 103, 0.336);
+}
+nav .pages .active{
+    color: orangered;
+}
+.pages.active{
+    left:0;
+}
+.footer{
+    background-color: black;
+    color: white;
+}
+/*********************MEDIA-SCREEN**********************/
+@media (min-width:768px){
+    
+/*----------------------Navbar (For Large Screen)-------------*/
+nav{
+    display:flex;
+    justify-content: space-around;
+
+}
+nav .Hamburger,nav .bar{
+    display: none;
+}
+nav .pages{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 15px;
+    position: static;
+    color: white;
+    width:auto;
+    height: auto;
+    transition:none;
+    background-color: black;
+}
+.pages a{
+    width: auto;
+    padding: 10px 5px;
+}
+
+}
+
+
+
+
+
+
+
+
