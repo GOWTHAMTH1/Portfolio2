@@ -27,7 +27,7 @@ const About = () => {
             </li>
             <li>BOOTSTRAP5
               <div className="progress">
-                <div className="progress-bar" style={{width:"77%" }}></div>
+                <div className="progress-bar" style={{width:"79%" }}></div>
               </div>
             </li>
             <li>JAVASCRIPT (ES6+) 

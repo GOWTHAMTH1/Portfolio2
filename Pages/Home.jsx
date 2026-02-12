@@ -13,8 +13,8 @@ const Home = () => {
           <p>Im a React Developer From Tamilnadu,with 2 years of Experience</p>
         </div>
         <div className="HomeBtns">
-          <button className='btn text-white ' >Connect With Me</button>
-          <button className='btn text-white' >My Resume</button>
+          <button className='btn text-white ' ><a href="www.linkedin.com/in/gowthamthangavel">Connect With Me</a></button>
+          <button className='btn text-white' onClick={()=>window.open("/GowthamThangavel.pdf","_blank")} >My Resume</button>
         </div>
       </div>
     </div>
