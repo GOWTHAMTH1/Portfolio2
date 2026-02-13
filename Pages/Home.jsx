@@ -12,7 +12,7 @@ const Home = () => {
           <div className='UserName' >I'm <span className='span'>GOWTHAM THANGAVEL</span>, <br /> Frontend focused  <b> React Developer <br /> </b> Skilled in Modern Javascript, Responsive design and Creating Clean.Reusable and Maintainable UI Components</div>
         </div>
         <div className="HomeBtns">
-          <button className='btn text-white ' ><a href="https:www.linkedin.com/in/gowthamthangavel1" target="_blank ">Connect With Me</a></button>
+          <button className='btn text-white ' ><a href="www.linkedin.com/in/gowthamthangavel1" target="_blank ">Connect With Me</a></button>
           <button className='btn text-white' onClick={()=>window.open("/GowthamThangavel.pdf","_blank")} >My Resume</button>
         </div>
       </div>
