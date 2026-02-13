@@ -51,7 +51,6 @@
     animation:Grow 8s linear;
     width: auto;
 }
-
 @keyframes Grow {
     from{
         width: 0%;
@@ -60,8 +59,7 @@
         width: 80%;
     }
 }
-
-
+/*---------------Project Component------------*/
 .carousel:hover{
     transform: scale(1.05);
 }

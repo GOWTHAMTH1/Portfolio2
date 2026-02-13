@@ -9,8 +9,7 @@ const Home = () => {
           <img src={profilePic} alt="Profile" />
         </div>
         <div className="info">
-          <div className='UserName' >I'm <span className='span'>GOWTHAM THANGAVEL</span>, <br /> React Developer based in India</div>
-          <p>Im a React Developer From Tamilnadu,with 2 years of Experience</p>
+          <div className='UserName' >I'm <span className='span'>GOWTHAM THANGAVEL</span>, <br /> Frontend focused  <b> React Developer <br /> </b> Skilled in Modern Javascript, Responsive design and Creating Clean.Reusable and Maintainable UI Components</div>
         </div>
         <div className="HomeBtns">
           <button className='btn text-white ' ><a href="www.linkedin.com/in/gowthamthangavel">Connect With Me</a></button>

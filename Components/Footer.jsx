@@ -1,12 +1,11 @@
-
 const Footer = () => {
   return (
     <div>
       <div className="footer p-2">
         <div className="FootInfo ">
         <span className="span">GOWTHAM THANGAVEL</span>
-        <p>I'm a React Developer having a strong knowledge in frontent technologies</p>
-        <p>@2024 Gowtham Thangavel. All rights reserved.</p>
+        <p><b>REACT DEVELOPER</b>-Building Responsive,User Friendly Web Applications with Modern Frontend Technologies </p>
+        <p>@2026 Gowtham Thangavel. All rights reserved.</p>
         <hr />
         </div>
         <div className="fw-semibold ">

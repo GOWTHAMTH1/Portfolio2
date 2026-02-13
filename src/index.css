@@ -1,3 +1,5 @@
+
+/*----------------------Common CSS--------------------------*/
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-;
   
@@ -26,7 +28,12 @@ body{
 .btn:hover{
   transform: scale(1.05);
 }
-
+a:hover{
+  color: blue;
+}
+a:active{
+  color: orangered;
+}
 .span{ 
     font-size: larger;
     font-weight: bold;

@@ -3,7 +3,8 @@ import { useState } from "react"
 import { MdEmail } from "react-icons/md";
 import { IoCall } from "react-icons/io5";
 import { IoLocationSharp } from "react-icons/io5";
-
+import { FaLinkedin } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 const Contact = () => {
   const [Data,setData]=useState({
     Name:"",
@@ -35,12 +36,16 @@ const HandleSubmit = async (event) => {
     <div className="conatainer pt-3">
       <div className="contact row row-cols-1 row-cols-md-2 p-3">
         <div className="col">
+        {/* --------------------Contact Address----------------------- */}
           <h4><span className="span">Let's Talk</span> </h4>
           <p>I'm Currently available to take on new projects , So feel free to send message about anything that you want me to work on.You can contact on anytime.</p>
-          <a href="mailto:gowthamthangavel1@gmail.com"><MdEmail/> gowthamthangavel1@gmail.com</a>
+          <a href="mailto:gowthamthangavel1@gmail.com"><MdEmail/> gowthamthangavel1@gmail.com</a><br />
+          <a href="www.linkedin.com/in/gowthamthangavel"><FaLinkedin/> LinkedIn</a><br />
+          <a href="https://github.com/GOWTHAMTH1"><FaGithub/> Github</a><br />
           <p><IoCall/>6369915781</p>
-          <p><IoLocationSharp/>Salem,TamilNadu,India</p>
+          <p><IoLocationSharp/>Salem-636306,TamilNadu,India</p>
         </div>
+        {/* --------------------Contact Form----------------------- */}
         <div className="col">
           <form action="" onSubmit={HandleSubmit}>
             <div className="ip">

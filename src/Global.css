@@ -49,15 +49,16 @@ nav .pages a{
     padding: 20px 0px;
     text-decoration: none;
 }
+nav .pages a:active{
+    color:orangered;
+}
 nav a:hover{
     background-color: rgba(101, 104, 103, 0.336);
-}
-nav .pages .active{
-    color: orangered;
 }
 .pages.active{
     left:0;
 }
+/*----------------------Footer--------------------------*/
 .footer{
     background-color: black;
     color: white;

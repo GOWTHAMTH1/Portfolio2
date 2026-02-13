@@ -1,4 +1,4 @@
-//-----------------images-------------------------
+//-----------------Project images-------------------------
 import Straegix1 from '../src/assets/Strategix1.png' 
 import Straegix2 from '../src/assets/Strategix2.png' 
 import Straegix3 from '../src/assets/Strategix3.png' 
@@ -23,6 +23,7 @@ import miniProject2 from '../src/assets/Card2.png'
 import miniProject3 from '../src/assets/crud.png'
 
 const Projects = () => {
+  
   return (
     <div className='container Projects pt-5'>
       <h4><span className='span'> My Latest Work</span></h4>

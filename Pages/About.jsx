@@ -1,19 +1,17 @@
 
 import Profile2 from '../src/assets/Profile2.jpg'
 const About = () => {
-  const AboutMe={
-    Image2:Profile2,
-    MyIntro1:["React Developer With Strong Foundations in Front-end Technologies ","I Design Responsive, User Friendly Interfaces,Solve Problem Efficiently and Continuous Learn New Tools to Enhance Web Development"],
-  }
+
   return (
     <div className=" container">
       <div className="About d-flex align-items-center text-align-center row ">
         <div className="Image2 col-8 col-md-3 m-auto " >
-          <img className='img img-fluid rounded' src={AboutMe.Image2} alt="Profile Picture" />
+          <img className='img img-fluid rounded' src={Profile2} alt="Profile Picture" />
         </div>
         <div className="MyIntro col-12 col-md-9 py-3">
-          <p>{AboutMe.MyIntro1[0]}</p>
-          <p>{AboutMe.MyIntro1[1]}</p>
+          <p>React Developer With Strong Foundations in Front-end Technologies </p>
+          <p>Continuously Expanding Towards <b> Fullstack-Development</b>,Learning Backend Technologies,Databases and Scalable Architecture </p>
+       {/* ----------------------Progress Bars------------------------- */}
           <ul className='list-unstyled fw-semibold '>
             <li>HTML5 
               <div className="progress" >
@@ -50,7 +48,7 @@ const About = () => {
         <div className="achivements d-flex row pt-3">
           <div className="achive col">
             <h4>2+</h4>
-            <p className='fw-semibold'>YEARS OF EXPERIENCE</p>
+            <p className='fw-semibold'>DEVELOPMENT EXPERIENCE</p>
           </div>
           <div className="achive col">
             <h4>15+</h4>
