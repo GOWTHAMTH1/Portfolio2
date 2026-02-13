@@ -40,7 +40,7 @@ const HandleSubmit = async (event) => {
           <h4><span className="span">Let's Talk</span> </h4>
           <p>I'm Currently available to take on new projects , So feel free to send message about anything that you want me to work on.You can contact on anytime.</p>
           <a href="mailto:gowthamthangavel1@gmail.com"><MdEmail/> gowthamthangavel1@gmail.com</a><br />
-          <a href="www.linkedin.com/in/gowthamthangavel"><FaLinkedin/> LinkedIn</a><br />
+          <a href="https:www.linkedin.com/in/gowthamthangavel"><FaLinkedin/> LinkedIn</a><br />
           <a href="https://github.com/GOWTHAMTH1"><FaGithub/> Github</a><br />
           <p><IoCall/>6369915781</p>
           <p><IoLocationSharp/>Salem-636306,TamilNadu,India</p>
