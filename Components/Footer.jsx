@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="fw-semibold ">
           <a className="" href="#">Terms & Service</a>
           <a className="ps-4" href="#">Privacy Policy</a>
-          <a className="ps-4" href="www.linkedin.com/in/gowthamthangavel1" target="_blank ">Let's Connect</a>
+          <a className="ps-4" href="https://www.linkedin.com/in/gowthamthangavel1" target="_blank ">Let's Connect</a>
         </div>
       </div>
     </div>
